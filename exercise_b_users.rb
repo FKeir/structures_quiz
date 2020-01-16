@@ -85,8 +85,8 @@ fluffy = {
   name: "fluffy",
   species: "dog"
 }
-users["Erik"][:pets].push(fluffy)
-p users["Erik"][:pets]
+p users["Erik"][:pets].push(fluffy)
+# p users["Erik"][:pets]
 # 10. Add another person to the users hash
 users["James"] = {
   twitter: "jamesw",
