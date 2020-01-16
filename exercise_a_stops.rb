@@ -7,6 +7,7 @@ stops.unshift('Glasgow Queen St')
 #3. Add "Polmont" at the appropriate point (between "Falkirk High" and "Linlithgow")
 stops.insert(4, 'Polmont')
 #4. Print out the index position of "Linlithgow"
+p stops.index('Linlithgow')
 p stops.find_index('Linlithgow')
 #5. Remove "Livingston" from the array using its name
 stops.delete('Livingston')
@@ -15,8 +16,8 @@ stops.delete_at(2)
 #7. Print the number of stops there are in the array?
 p stops.length
 #8. Show as many ways as you can to return "Falkirk High" from the array?
-stops[2]
-stops[-5]
+p stops[2]
+p stops[-5]
 for stop in stops
   if stop == 'Falkirk high'
     return stop
